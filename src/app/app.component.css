@@ -1,0 +1,29 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: cyan; */
+  height: 90vh;
+  width: 95vw;
+  padding: 2rem;
+  border: 1px solid grey;
+
+}
+.heroes{
+  /* justify-content:center ; */
+  height: 40vh;
+  width: 100%;
+  /* background-color: red; */
+  /* border: 1px solid grey; */
+  box-shadow: 2px 2px 3px rgba(7,7,7,0.3);
+
+}
+.hero-details{
+  height: 50vh;
+  width: 60%;
+  /* background-color: orange; */
+  box-shadow: 2px 2px 3px rgba(7,7,7,0.3);
+  /* border: 1px solid grey; */
+
+}
