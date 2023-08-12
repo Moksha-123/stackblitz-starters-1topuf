@@ -14,7 +14,7 @@ import { HeroComponent } from './hero/hero.component';
 export class HeroesComponent implements OnInit {
 
 
-  heroes: Hero[] = HEROES;
+  heroes: Hero[] = [];
 
 
   constructor() { 
