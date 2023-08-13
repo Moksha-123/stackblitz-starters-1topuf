@@ -8,6 +8,8 @@
   width: 15rem;
   padding: 0.5rem;
   /* background-color: red; */
+  cursor: pointer;
+  
 
 }
 .avatar{
@@ -17,8 +19,10 @@
   height: 9rem;
   width: 100%;
   /* background-color: pink; */
+  
 
 }
 .avatar > img{
   height: 9rem;
+  
 }

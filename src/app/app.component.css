@@ -17,6 +17,7 @@
   /* background-color: red; */
   /* border: 1px solid grey; */
   box-shadow: 2px 2px 3px rgba(7,7,7,0.3);
+  background-image: url(https://media.istockphoto.com/id/531112875/photo/ice-background.jpg?s=612x612&w=0&k=20&c=kLrmmupsNH59ctK1pHVpgKsKuu3_XJdnuI7H4jUv2cA=);
 
 }
 .hero-details{
@@ -25,5 +26,6 @@
   /* background-color: orange; */
   box-shadow: 2px 2px 3px rgba(7,7,7,0.3);
   /* border: 1px solid grey; */
+  
 
 }
