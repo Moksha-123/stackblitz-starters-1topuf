@@ -5,10 +5,11 @@
   width: 60vw;
   align-items: center;
   justify-content: flex-start;
+  margin-top: 0.5rem;
+
 }
 .avatar{
   display: flex;
-  justify-content:center ;
   align-items: center;
   height: 20vh;
   width: 100%;
@@ -16,12 +17,15 @@
 }
 .avatar > img{
   height: 20vh;
-  width: 100%;
+  width: 50%;
 }
 .info{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  
+  font-size: 20px;
+  font-family: cursive;
+
+
 }
