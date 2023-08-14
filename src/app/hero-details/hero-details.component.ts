@@ -11,7 +11,7 @@ export class HeroDetailsComponent implements OnInit {
   @Input() selectedHero!:Hero;
 
   constructor() { 
-    console.log(this.selectedHero);
+    // console.log(this.selectedHero);
   }
 
   ngOnInit() {
