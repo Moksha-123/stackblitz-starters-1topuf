@@ -1,5 +1,15 @@
-<!-- <div class="container">
-  <div class="info">
-    <h3>{{hero.info}}</h3>
+<div class="container">
+  <div class="avatar">
+    <img [src]="selectedHero.avatar" alt="">
   </div>
-</div> -->
+  <div class="name">
+    <p>{{selectedHero.id}}</p>
+    <p>{{selectedHero.name}}</p>
+  </div>
+  <div class="field">
+    <p>{{selectedHero.field}}</p>
+  </div>
+  <div class="info">
+    <p>{{selectedHero.info}}</p>
+  </div>
+</div>
