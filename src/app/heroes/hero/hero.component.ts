@@ -14,4 +14,5 @@ export class HeroComponent implements OnInit {
   ngOnInit() {
     console.log(this.hero);
   }
+  
 }

@@ -1,4 +1,7 @@
 <div class="container">
 
-  <app-hero class="hero" *ngFor="let hero of heroes" [hero]="hero"></app-hero>
+  <app-hero class="hero" *ngFor="let hero of heroes" [hero]="hero"
+  (click)="onSelected(hero)"
+  
+  ></app-hero>
 </div>
