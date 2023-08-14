@@ -14,11 +14,13 @@ import { HeroesComponent } from './heroes/heroes.component';
 export class AppComponent implements OnInit {
 
   constructor() { }
+  selectedHero!:Hero;
 
   ngOnInit() {
   }
   onheroSelected(hero: Hero){
     console.log(hero);
+    this.selectedHero = hero;
   }
 
 }
